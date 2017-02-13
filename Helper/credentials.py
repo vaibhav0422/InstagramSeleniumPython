@@ -1,2 +1,2 @@
-uname = "photato_head"
-pwd = "Football2204@@"
+uname = "USERNAME"
+pwd = "PASSWORD"
