@@ -29,11 +29,13 @@ for i in range(0,wordLength):
     hNameLocal = "https://www.instagram.com/"+ hNames[i]
     driver.get(hNameLocal)
     print("- Opening "+hNames[i]+"....")
-    sleep(randint(2,4))
+    sleep(0.5 * randint(2,4))
     driver.find_element_by_xpath(followButton).click()
     print("- Followed "+hNames[i]+"....")
     print("-------------------------------")
-    sleep(randint (1,4))
+    sleep(0.5 * randint (1,4))
+    
+driver.close()
 
 
 # driver.get("https://www.instagram.com/photato_head") #<- My userName
